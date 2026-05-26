@@ -7,10 +7,10 @@ from matplotlib.ticker import MultipleLocator
 # ============================================================
 # KONFIGURASI PATH
 # ============================================================
-FILE_PATH        = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\Data\TEPAST_NanoDoap_Rapi.xlsx"
-FILE_PATH_TRANSP = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\Data\TEPAST_NanoDoap_Transparancy.xlsx"
-OUTPUT_PATH      = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\TEPAST_Boxplot_v2.png"
-SHEET_NAME       = "Semua Stasiun"
+FILE_PATH        = ""
+FILE_PATH_TRANSP = ""
+OUTPUT_PATH      = ""
+SHEET_NAME       = ""
 # ============================================================
 
 # ── Load data utama ─────────────────────────────────────────
@@ -261,10 +261,10 @@ import os
 # ============================================================
 # KONFIGURASI PATH
 # ============================================================
-FILE_PATH        = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\Data\TEPAST_NanoDoap_Rapi.xlsx"
-FILE_PATH_TRANSP = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\Data\TEPAST_NanoDoap_Transparancy.xlsx"
-OUTPUT_DIR       = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST"
-SHEET_NAME       = "Semua Stasiun"
+FILE_PATH        = ""
+FILE_PATH_TRANSP = ""
+OUTPUT_DIR       = ""
+SHEET_NAME       = ""
 # ============================================================
 
 # ── Load data utama ─────────────────────────────────────────
@@ -539,8 +539,8 @@ from matplotlib.ticker import MaxNLocator
 # =========================
 # LOAD DATA
 # =========================
-main_file = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\Data\TEPAST_NanoDoap_Rapi.xlsx"
-trans_file = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\Data\TEPAST_NanoDoap_Transparancy.xlsx"
+main_file = ""
+trans_file = ""
 
 df = pd.read_excel(main_file)
 trans_df = pd.read_excel(trans_file)
@@ -728,7 +728,7 @@ fig.supxlabel(
 
 plt.tight_layout()
 
-output_path = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\Output\Boxplot"
+output_path = ""
 plt.savefig(output_path, dpi=300, bbox_inches="tight")
 
 print("Saved:", output_path)
