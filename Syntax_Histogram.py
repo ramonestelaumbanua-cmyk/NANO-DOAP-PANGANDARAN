@@ -26,10 +26,10 @@ plt.rcParams.update({
 # ============================================================
 # KONFIGURASI PATH  ← sesuaikan dengan path Anda
 # ============================================================
-FILE_PATH    = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\Data\TEPAST_NanoDoap_Rapi.xlsx"
-FILE_TRANSP  = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\Data\TEPAST_NanoDoap_Transparancy.xlsx"
-OUTPUT_PATH  = r"F:\KULIAH RAMONES\KARIR\Olah Data TEPAST\TEPAST_Histogram_Gradasi.png"
-SHEET_NAME   = "Semua Stasiun"
+FILE_PATH    = ""
+FILE_TRANSP  = ""
+OUTPUT_PATH  = ""
+SHEET_NAME   = ""
 SHEET_TRANSP = 0
 # ============================================================
 
